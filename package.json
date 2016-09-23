@@ -1,0 +1,17 @@
+{
+  "name": "unicode-table",
+  "version": "0.0.1",
+  "description": "A simple server that spits out unicode chacaters with pagination. React, redux, react-router, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.0.2"
+  }
+}
