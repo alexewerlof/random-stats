@@ -1,6 +1,6 @@
-const compose = require('../src/index').compose;
 const assert = require('chai').assert;
-// console.dir(assert);
+const compose = require('./fp-helpers').compose;
+
 describe('compose()', () => {
 
   it('returns a noop for no input', () => {

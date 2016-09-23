@@ -1,6 +1,6 @@
-const initFreq = require('../src/index').initFreq;
 const assert = require('chai').assert;
-// console.log(assert);
+const initFreq = require('./random-stats').initFreq;
+
 describe('initFreq()', () => {
 
   it('throws for invalid input', () => {
