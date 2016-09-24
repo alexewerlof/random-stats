@@ -22,6 +22,11 @@ node index -n 5 -i 1000000
 4 : 20.01%
 ```
 
+# Debugging
+
+To debug the project [in Chrome](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27#.2p137t8y4)
+use `npm run debug`.
+
 # Run the tests
 
 ```

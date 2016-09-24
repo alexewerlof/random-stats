@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js -n 10 -i 1000000",
+    "debug": "node --inspect --debug-brk index.js -n 3 -i 10",
     "test": "mocha src/**/*.spec.js"
   },
   "keywords": ["random numbers", "statistics"],
